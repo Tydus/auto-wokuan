@@ -5,6 +5,7 @@
 
 ## What is auto boost
 auto-wokuan can automatically apply bandwidth boost and restore, regarding realtime traffic.
+No more official wokuan is required
 
 ## Requirements
 
@@ -20,6 +21,6 @@ Configuration is written in the script
 * IF: the interface to inspect traffic, only one. Wildcard works
 * THRESHOLD_BOOST, COUNT_BOOST: Boost if traffic higher than THRESHOLD_BOOST KB/s and last for COUNT_BOOST*2 s
 * THRESHOLD_RESTORE, COUNT_RESTORE: Restore if traffic lower than THRESHOLD_RESTORE KB/s and last for COUNT_RESTORE*2 s
-* RESERVE_HOURS: Reserve some hours and don't boost if our remaining time is lower than that
+* RESERVE_HOURS: Reserve some hours. Don't boost if our remaining time is lower than that
 
 
